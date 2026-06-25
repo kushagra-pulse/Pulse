@@ -1,0 +1,8 @@
+[package]
+name = "pulse"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+colored = "3.1.1"
+reqwest = { version = "0.13.4", features = ["blocking"] }
